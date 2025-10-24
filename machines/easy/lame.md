@@ -22,12 +22,12 @@ No exact OS matches for host (test conditions non-ideal).
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 24.19 seconds
-                                                                                                                                                                                                                   
+Nmap done: 1 IP address (1 host up) scanned in 24.19 seconds                                                                             
 ┌──(root㉿tacticaltimbz)-[/home/orlando/Downloads]
 └─# 
 ---
 # Identifying SMB Version
+
 ```
 ┌──(root㉿tacticaltimbz)-[/home/orlando/Downloads]
 └─# nmap -p 139,445 -sV -Pn 10.10.10.3
